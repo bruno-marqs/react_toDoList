@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Task from './Task';
+import Task from "./Task";
 
 const Tasks = ({ tasks }) => {
     return (
         <>
             {tasks.map((task) => (
-                <Tasks />
+                <Task />
             ))};
         </>
     );

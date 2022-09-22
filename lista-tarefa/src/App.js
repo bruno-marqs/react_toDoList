@@ -24,7 +24,7 @@ const App = () => {
         <Tasks tasks={tasks} />
       </div>
     </>
-  )
-}
+  );
+};
 
 export default App;
